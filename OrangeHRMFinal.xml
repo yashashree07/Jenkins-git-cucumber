@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHRMTestCases">
+	<parameter name="BROWSER" value="CHROME"></parameter>
+	<test name="RegressionTests">
+		<classes>
+			<class name="com.montran.Testcases.LoginfunctionalityTestCases">
+			</class>
+		</classes>
+	</test>
+</suite>

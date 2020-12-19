@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Checking Login functionality with Valid Credentials",
+        "description": "",
+        "id": ";checking-login-functionality-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28321707700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login screen",
+            "match": {
+              "location": "LoginStepDefinations.TakeUserOnLoginScreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48508300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"Admin\" in UserName field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefinations.EnterUserName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50698700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"admin123\" in Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStepDefinations.EnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5941344500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on SignIn button",
+            "match": {
+              "location": "LoginStepDefinations.ClickSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24464200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be successfully logged in",
+            "match": {
+              "location": "LoginStepDefinations.SuccessfullLoginConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "Test Login Functionality",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
